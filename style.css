@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Tektur', cursive, sans-serif;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0061ff;
+}
+
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #00DBFF;
+}
+
+.container {
+    width: 90%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+.tile {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #0061ff;
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.42) 0.2s;
+    transform: scale(1.02);
+}
+
+.icons svg {
+    color: #00DBFF;
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #0061ff;
+}
+
+.tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #00DBFF;
+}
+
+.image-container {
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%; 
+}
+
+.icons {
+    margin: 4px 8px;
+    width: 40px;
+    height: 44px;
+}
